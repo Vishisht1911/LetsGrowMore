@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bgim_2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    color: aliceblue;
+}
+
+
+.title {
+    height: 110px;
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#toDoContainer {
+    padding: 10px;
+    color: black;
+}
+
+.container {
+    width: 360px;
+    margin-left: 900px;
+    margin-top: 250px;
+    position: absolute;
+    display: inline-block;
+    border: 3px solid grey;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+#inputField {
+
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 15px;
+
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 0px;
+}
